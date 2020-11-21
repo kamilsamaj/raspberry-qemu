@@ -14,3 +14,8 @@ qemu-img resize <raspbian-image>.qcow2 +20G
 ```
 ./start.sh
 ```
+
+# SSH into the host
+```
+ssh pi@localhost -p 5022
+```
